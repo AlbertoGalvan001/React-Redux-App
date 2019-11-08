@@ -9,14 +9,14 @@ export const getDogs = api => dispatch => {
     axios
         .get(api)
         .then(response => {
-            console.log('axios good boi', response.data.message);
+            // console.log('axios good boi', response.data.message);
             dispatch({
                 type: FETCH_DOGS_SUCCESS,
                 payload: response.data.message
             });
         })
         .catch(error => {
-            console.log('axios bad, very bad', error);
+            // console.log('axios bad, very bad', error);
             dispatch({ type: FETCH_DOGS_FAIL, payload: error.message });
         });
 };
