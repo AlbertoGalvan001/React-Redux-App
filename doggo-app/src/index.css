@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header {
+  color: white;
+  background-color: olive;
+  width: 90%;
+  margin: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+  position: fixed;
+}
+
+.dog-container {
+  background: #d6c9cb;
+  width: 90%;
+  max-width: 800px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.dog {
+  width: 400px;
+  margin: 35px
+}
